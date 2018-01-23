@@ -23,6 +23,7 @@ class  CoverInfoController extends  Controller{
      */
     function  actionAddCover(){
 
+
         $model = new Coverinfo();
 
         //先验证#model 收到的数据
