@@ -16,6 +16,8 @@ use yii\web\Controller;
  * @package app\controllers
  */
 class  MagazineController extends  Controller{
+
+    
     function actionDeleteMagazine(){
         $model=new Magazine();
         $model->id=6;
