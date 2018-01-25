@@ -17,7 +17,7 @@ use yii\web\Controller;
  * Class AdminController
  * @package app\controllers
  */
-class  ColumnController extends BaseController
+class  ColumnController extends Controller
 {
 
     function actionAddColumn()
@@ -42,7 +42,7 @@ class  ColumnController extends BaseController
 
     }
 
-    function actionDeleteColumn()
+    function actionDeleteColumn($DeleteColumn)
     {
         $ColumnModel = new  Column();
         $ColumnModel->id = 1;
@@ -50,8 +50,7 @@ class  ColumnController extends BaseController
         if (empty($ColumnModel->id)) {
             //id为空或者为0
             // var_dump(empty($ColumnModel->id));
-            print_r("ID不能为空！");
-            die();
+            print_r("ID不能为空！"); die();
 
         } else {
 
@@ -70,6 +69,26 @@ class  ColumnController extends BaseController
         }
 
     }
+    //修改
+    function actionUpdateColumn(){
+        $ColumnModel = new  Column();
+        $ColumnModel->id;
+        $ColumnModel->directoryCode=5;
+        $NewColumnName="擦擦擦";
+        $NewColumnNotation="";
+        $DirectoryCode=Directory::findOne($ColumnModel->directoryCode);
+        if(!empty($DirectoryCode)){
+            $ColumnModel->columnName=$NewColumnName;
+            $ColumnModel->columnNotation=$NewColumnNotation;
+            $DirectoryCode->save();
+            print_r("修改成功！");
 
+        }else{
+
+            print_r("没有找到该目录");
+        }
+
+
+    }
 
 }
