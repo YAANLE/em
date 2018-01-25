@@ -14,6 +14,6 @@ use yii\web\Controller;
  * Class AdminController
  * @package app\controllers
  */
-class  ChapterController extends  Controller{
+class  ChapterController extends  BaseController{
 
 }
