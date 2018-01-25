@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10d644ef-a0bb-4a1a-b2b1-9bf2bffc0bc9" name="Default" comment="@老友号&#10;&#10;//xxxx&#10;&#10;@date:2018年1月25日16:32:58">
+    <list default="true" id="10d644ef-a0bb-4a1a-b2b1-9bf2bffc0bc9" name="Default" comment="@老友号&#10;&#10;//xxxx&#10;&#10;@date:2018年1月25日17:05:08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/basic/controllers/UserController.php" afterPath="$PROJECT_DIR$/basic/controllers/UserController.php" />
     </list>
     <ignored path="$PROJECT_DIR$/basic/vendor/behat/gherkin/" />
     <ignored path="$PROJECT_DIR$/basic/vendor/bower-asset/bootstrap/" />
@@ -83,8 +84,8 @@
       <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/basic/controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="61" column="14" lean-forward="true" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+            <state relative-caret-position="308">
+              <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
               <folding>
                 <element signature="e#124#148#0#PHP" expanded="true" />
               </folding>
@@ -122,8 +123,8 @@
         <option value="$PROJECT_DIR$/basic/controllers/DirectoryController.php" />
         <option value="$PROJECT_DIR$/basic/controllers/MagazineController.php" />
         <option value="$PROJECT_DIR$/basic/controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/basic/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/basic/config/web.php" />
+        <option value="$PROJECT_DIR$/basic/controllers/UserController.php" />
       </list>
     </option>
   </component>
@@ -336,7 +337,7 @@
       <workItem from="1516775567924" duration="7214000" />
       <workItem from="1516842956024" duration="1836000" />
       <workItem from="1516844946824" duration="7737000" />
-      <workItem from="1516861944547" duration="8452000" />
+      <workItem from="1516861944547" duration="8543000" />
     </task>
     <task id="LOCAL-00001" summary="@老友号&#10;&#10;//修改magazine杂志表&#10;&#10;@date:2018-01-24 17:33:24">
       <created>1516786413162</created>
@@ -366,11 +367,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516869191200</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="@老友号&#10;&#10;//xxxx&#10;&#10;@date:2018年1月25日17:05:08">
+      <created>1516871115015</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1516871115015</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55488000" />
+    <option name="totallyTimeSpent" value="55579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -411,7 +419,8 @@
     <MESSAGE value="@老友号&#10;&#10;//修改magazine杂志表&#10;&#10;@date:2018-01-24 17:33:24" />
     <MESSAGE value="@老友号&#10;&#10;//修改magazine杂志表&#10;&#10;@date:2018-01-25 09:51:23" />
     <MESSAGE value="@老友号&#10;&#10;//xxxx&#10;&#10;@date:2018年1月25日16:32:58" />
-    <option name="LAST_COMMIT_MESSAGE" value="@老友号&#10;&#10;//xxxx&#10;&#10;@date:2018年1月25日16:32:58" />
+    <MESSAGE value="@老友号&#10;&#10;//xxxx&#10;&#10;@date:2018年1月25日17:05:08" />
+    <option name="LAST_COMMIT_MESSAGE" value="@老友号&#10;&#10;//xxxx&#10;&#10;@date:2018年1月25日17:05:08" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -783,8 +792,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="61" column="14" lean-forward="true" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+        <state relative-caret-position="308">
+          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
           <folding>
             <element signature="e#124#148#0#PHP" expanded="true" />
           </folding>

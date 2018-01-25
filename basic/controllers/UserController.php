@@ -50,7 +50,7 @@ class  UserController extends BaseController
     }
 
 
-    /*
+    /*zy
      * 用户删除
      */
     function actionDeleteUser()
