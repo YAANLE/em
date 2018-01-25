@@ -11,13 +11,14 @@ namespace app\controllers;
 use app\models\Coverinfo;
 use app\models\Magazine;
 use yii\web\Controller;
+use yii\web\Response;
 
 /**
  * 杂志封面发布
  * Class _CoverInfoController
  * @package app\controllers
  */
-class  CoverInfoController extends Controller
+class  CoverInfoController extends BaseController
 {
 
     /**
@@ -59,5 +60,21 @@ class  CoverInfoController extends Controller
 
 
     }
+
+
+    function  actionSelect(){
+        //代码中添加返回头信息,以j'son的形式返回
+        \Yii::$app->response->format=Response::FORMAT_JSON;
+
+        $CoverinfoModel=Coverinfo::find()->all();
+
+        if ($CoverinfoModel != null){
+            return ['errorCode'=>"200",'message'=>"查询成功",'list'=>$CoverinfoModel];
+        }else{
+            return ['errorCode'=>"500",'message'=>"查询为空"];
+        }
+
+    }
+
 
 }

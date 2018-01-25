@@ -17,7 +17,7 @@ use yii\web\Controller;
  * Class AdminController
  * @package app\controllers
  */
-class  ColumnController extends Controller
+class  ColumnController extends BaseController
 {
 
     function actionAddColumn()

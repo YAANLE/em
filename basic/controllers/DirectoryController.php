@@ -18,7 +18,7 @@ use yii\web\Response;
  * Class AdminController
  * @package app\controllers
  */
-class  DirectoryController extends Controller
+class  DirectoryController extends BaseController
 {
 
 

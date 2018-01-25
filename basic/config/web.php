@@ -43,14 +43,16 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
+
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                'GET /getCovers' => '/cover-info/select',
+                'GET /addCover' => '/cover-info/add-cover',
             ],
         ],
-        */
+
     ],
     'params' => $params,
 ];

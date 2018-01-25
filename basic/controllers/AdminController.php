@@ -15,6 +15,6 @@ use yii\web\Controller;
  * Class AdminController
  * @package app\controllers
  */
-class  AdminController extends  Controller{
+class  AdminController extends  BaseController {
 
 }
