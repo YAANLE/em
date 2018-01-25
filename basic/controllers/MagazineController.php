@@ -37,5 +37,23 @@ class  MagazineController extends  Controller{
         }
     }
 
+    function actionDeleteMagazine(){
+        $model=new Magazine();
+        $model->id=5;
+        if(!$model==null){
+            if ($model->id){
+                Magazine::findOne($model->id)->delete();
+                print_r("删除成功！");die();
+            }
+            else{
+                print_r("没找到id");die();
+            }
+        }
+        else
+        {
+            print_r("id为空");die();
+        }
+    }
+
 
 }
