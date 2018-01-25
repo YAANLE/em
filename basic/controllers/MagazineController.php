@@ -17,22 +17,25 @@ use yii\web\Controller;
  */
 class  MagazineController extends  Controller{
 
-    
-    function actionDeleteMagazine(){
-        $model=new Magazine();
-        $model->id=6;
-        if(!$model==null){
-            if ($model->id){
-                Magazine::findOne($model->id)->delete();
-                print_r("删除成功！");die();
+    /**
+     *
+     */
+    function actionAddTitle(){
+        $MagazineModel=new Magazine();
+        $MagazineModel->magazineTitle="啛啛喳喳错";
+       //验证$MagazineModel->magazineTitle
+
+        if(!empty($MagazineModel->magazineTitle)){
+            if(mb_strlen($MagazineModel->magazineTitle,'utf8') <= 255){
+                    $MagazineModel->insert();
+                print_r("插入成功！！");die();
+            }else{
+                print_r("标题大于255！");die();
             }
-            else{
-                print_r("没找到id");die();
-            }
-        }
-        else
-        {
-            print_r("id为空");die();
+        }else{
+            print_r("标题为空！");die();
         }
     }
+
+
 }
