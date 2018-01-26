@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="10d644ef-a0bb-4a1a-b2b1-9bf2bffc0bc9" name="Default" comment="@牙牙乐&#10;&#10;嘻嘻嘻&#10;&#10;@date:2018年1月26日16:44:43">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/basic/config/web.php" afterPath="$PROJECT_DIR$/basic/config/web.php" />
       <change beforePath="$PROJECT_DIR$/basic/controllers/ChapterContentController.php" afterPath="$PROJECT_DIR$/basic/controllers/ChapterContentController.php" />
-      <change beforePath="$PROJECT_DIR$/basic/controllers/ChapterController.php" afterPath="$PROJECT_DIR$/basic/controllers/ChapterController.php" />
-      <change beforePath="$PROJECT_DIR$/basic/controllers/ColumnController.php" afterPath="$PROJECT_DIR$/basic/controllers/ColumnController.php" />
-      <change beforePath="$PROJECT_DIR$/basic/controllers/CoverInfoController.php" afterPath="$PROJECT_DIR$/basic/controllers/CoverInfoController.php" />
     </list>
     <ignored path="$PROJECT_DIR$/basic/vendor/behat/gherkin/" />
     <ignored path="$PROJECT_DIR$/basic/vendor/bower-asset/bootstrap/" />
@@ -87,8 +85,8 @@
       <file leaf-file-name="CoverInfoController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/controllers/CoverInfoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+            <state relative-caret-position="242">
+              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -97,41 +95,19 @@
       <file leaf-file-name="ColumnController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/controllers/ColumnController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state relative-caret-position="500">
+              <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DirectoryController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/controllers/DirectoryController.php">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic/config/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="39" column="62" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="62" />
+            <state relative-caret-position="105">
+              <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChapterController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/controllers/ChapterController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChapterContentController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basic/controllers/ChapterContentController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-              <folding>
-                <element signature="e#124#145#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -161,14 +137,14 @@
         <option value="$PROJECT_DIR$/basic/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/basic/controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/basic/controllers/DirectoryController.php" />
-        <option value="$PROJECT_DIR$/basic/config/web.php" />
         <option value="$PROJECT_DIR$/basic/controllers/MagazineController.php" />
         <option value="$PROJECT_DIR$/basic/controllers/ChapterCommentsController.php" />
         <option value="$PROJECT_DIR$/basic/test/a.php" />
-        <option value="$PROJECT_DIR$/basic/controllers/ChapterContentController.php" />
         <option value="$PROJECT_DIR$/basic/controllers/ChapterController.php" />
         <option value="$PROJECT_DIR$/basic/controllers/ColumnController.php" />
         <option value="$PROJECT_DIR$/basic/controllers/CoverInfoController.php" />
+        <option value="$PROJECT_DIR$/basic/controllers/ChapterContentController.php" />
+        <option value="$PROJECT_DIR$/basic/config/web.php" />
       </list>
     </option>
   </component>
@@ -447,11 +423,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516956363130</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="@牙牙乐&#10;&#10;嘻嘻嘻&#10;&#10;@date:2018年1月26日16:44:43">
+      <created>1516956879226</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1516956879226</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73319000" />
+    <option name="totallyTimeSpent" value="74046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -536,6 +519,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -755,6 +739,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -787,22 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/config/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="51" column="59" lean-forward="true" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/controllers/MagazineController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="88" column="43" lean-forward="true" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/test/a.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -827,45 +796,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/controllers/CoverInfoController.php">
+    <entry file="file://$PROJECT_DIR$/basic/controllers/ChapterContentController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        <state relative-caret-position="142">
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="e#124#145#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/controllers/ChapterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/controllers/ColumnController.php">
+    <entry file="file://$PROJECT_DIR$/basic/controllers/MagazineController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/controllers/DirectoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="39" column="62" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="62" />
+        <state relative-caret-position="550">
+          <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/controllers/ChapterController.php">
+    <entry file="file://$PROJECT_DIR$/basic/controllers/CoverInfoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="242">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/controllers/ChapterContentController.php">
+    <entry file="file://$PROJECT_DIR$/basic/controllers/ColumnController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-          <folding>
-            <element signature="e#124#145#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="500">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
