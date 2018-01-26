@@ -19,7 +19,12 @@ use yii\web\Controller;
  */
 class  ColumnController extends Controller
 {
-
+    /**
+     *@牙牙乐
+     *2018/1/26 0026
+     * @throws \Exception
+     * @throws \Throwable
+     */
     function actionAddColumn()
     {
         $ColumnModel = new  Column();
