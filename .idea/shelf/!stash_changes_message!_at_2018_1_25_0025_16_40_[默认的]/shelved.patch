@@ -1,0 +1,445 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"bfb9a2ae-8597-48ec-8679-3a96843ec100\" name=\"默认的\" comment=\"\">\n      <change beforePath=\"\" afterPath=\"$PROJECT_DIR$/basic/test/test.php\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/em.iml\" afterPath=\"$PROJECT_DIR$/.idea/em.iml\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/basic/controllers/ColumnController.php\" afterPath=\"$PROJECT_DIR$/basic/controllers/ColumnController.php\" />\n      <change beforePath=\"$PROJECT_DIR$/basic/controllers/CoverInfoController.php\" afterPath=\"$PROJECT_DIR$/basic/controllers/CoverInfoController.php\" />\n      <change beforePath=\"$PROJECT_DIR$/basic/controllers/DirectoryController.php\" afterPath=\"$PROJECT_DIR$/basic/controllers/DirectoryController.php\" />\n      <change beforePath=\"$PROJECT_DIR$/basic/controllers/MagazineController.php\" afterPath=\"$PROJECT_DIR$/basic/controllers/MagazineController.php\" />\n    </list>\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\n    <option name=\"TRACKING_ENABLED\" value=\"true\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ComposerSettings\" doNotAsk=\"true\" synchronizationState=\"SYNCHRONIZE\">\n    <pharConfigPath>$PROJECT_DIR$/basic/composer.json</pharConfigPath>\n  </component>\n  <component name=\"FileEditorManager\">\n    <leaf SIDE_TABS_SIZE_LIMIT_KEY=\"300\">\n      <file leaf-file-name=\"CoverInfoController.php\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/basic/controllers/CoverInfoController.php\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"517\">\n              <caret line=\"53\" column=\"9\" lean-forward=\"false\" selection-start-line=\"53\" selection-start-column=\"9\" selection-end-line=\"53\" selection-end-column=\"9\" />\n              <folding>\n                <element signature=\"e#124#149#0#PHP\" expanded=\"true\" />\n              </folding>\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"ColumnController.php\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/basic/controllers/ColumnController.php\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"-933\">\n              <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"DirectoryController.php\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/basic/controllers/DirectoryController.php\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"800\">\n              <caret line=\"91\" column=\"1\" lean-forward=\"true\" selection-start-line=\"91\" selection-start-column=\"1\" selection-end-line=\"91\" selection-end-column=\"1\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"UserController.php\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/basic/controllers/UserController.php\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"0\">\n              <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"1\" selection-end-column=\"0\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"MagazineController.php\" pinned=\"false\" current-in-tab=\"true\">\n        <entry file=\"file://$PROJECT_DIR$/basic/controllers/MagazineController.php\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"242\">\n              <caret line=\"18\" column=\"0\" lean-forward=\"true\" selection-start-line=\"18\" selection-start-column=\"0\" selection-end-line=\"18\" selection-end-column=\"0\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"Magazine.php\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/basic/models/Magazine.php\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"250\">\n              <caret line=\"10\" column=\"29\" lean-forward=\"false\" selection-start-line=\"10\" selection-start-column=\"29\" selection-end-line=\"10\" selection-end-column=\"34\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"Coverinfo.php\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/basic/models/Coverinfo.php\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"625\">\n              <caret line=\"25\" column=\"7\" lean-forward=\"false\" selection-start-line=\"25\" selection-start-column=\"7\" selection-end-line=\"25\" selection-end-column=\"7\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n    </leaf>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"IdeDocumentHistory\">\n    <option name=\"CHANGED_PATHS\">\n      <list>\n        <option value=\"$PROJECT_DIR$/basic/config/db.php\" />\n        <option value=\"$PROJECT_DIR$/basic/web/index.php\" />\n        <option value=\"$PROJECT_DIR$/basic/models/Chapter.php\" />\n        <option value=\"$PROJECT_DIR$/basic/controllers/CoverInfoController.php\" />\n        <option value=\"$PROJECT_DIR$/basic/controllers/MagazineController.php\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"JsBuildToolGruntFileManager\" detection-done=\"true\" sorting=\"DEFINITION_ORDER\" />\n  <component name=\"JsBuildToolPackageJson\" detection-done=\"true\" sorting=\"DEFINITION_ORDER\" />\n  <component name=\"JsGulpfileManager\">\n    <detection-done>true</detection-done>\n    <sorting>DEFINITION_ORDER</sorting>\n  </component>\n  <component name=\"PhpServers\">\n    <servers />\n  </component>\n  <component name=\"PhpWorkspaceProjectConfiguration\" backward_compatibility_performed=\"true\">\n    <include_path>\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpspec/php-diff\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpspec/prophecy\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/behat/gherkin\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpunit/php-file-iterator\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpunit/php-timer\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpunit/php-text-template\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpunit/php-token-stream\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpunit/phpunit-mock-objects\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/webmozart/assert\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpunit/php-code-coverage\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpunit/phpunit\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/doctrine/instantiator\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpdocumentor/reflection-docblock\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/fzaninotto/faker\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpdocumentor/type-resolver\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpdocumentor/reflection-common\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/global-state\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/comparator\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/environment\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/myclabs/deep-copy\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/exporter\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/composer\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/recursion-context\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/object-enumerator\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/object-reflector\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/stecman/symfony-console-completion\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/resource-operations\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/code-unit-reverse-lookup\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/diff\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/version\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/theseer/tokenizer\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/psr/http-message\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/psr/log\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/guzzlehttp/psr7\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/codeception/specify\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/ezyang/htmlpurifier\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/codeception/verify\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/codeception/base\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/console\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/css-selector\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/debug\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/event-dispatcher\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/polyfill-mbstring\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/browser-kit\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/dom-crawler\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/finder\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/yaml\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/yiisoft/yii2\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/yiisoft/yii2-bootstrap\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/yiisoft/yii2-faker\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/yiisoft/yii2-composer\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/cebe/markdown\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/yiisoft/yii2-debug\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/yiisoft/yii2-gii\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/yiisoft/yii2-swiftmailer\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/bower-asset/typeahead.js\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/bower-asset/punycode\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/bower-asset/yii2-pjax\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/bower-asset/bootstrap\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/bower-asset/jquery\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/bower-asset/inputmask\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/phar-io/manifest\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/phar-io/version\" />\n      <path value=\"$PROJECT_DIR$/basic/vendor/swiftmailer/swiftmailer\" />\n    </include_path>\n  </component>\n  <component name=\"ProjectFrameBounds\" extendedState=\"6\">\n    <option name=\"x\" value=\"104\" />\n    <option name=\"width\" value=\"1622\" />\n    <option name=\"height\" value=\"1000\" />\n  </component>\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectView\">\n    <navigator currentView=\"ProjectPane\" proportions=\"\" version=\"1\">\n      <flattenPackages />\n      <showMembers />\n      <showModules />\n      <showLibraryContents />\n      <hideEmptyPackages />\n      <abbreviatePackageNames />\n      <autoscrollToSource />\n      <autoscrollFromSource />\n      <sortByType />\n      <manualOrder />\n      <foldersAlwaysOnTop value=\"true\" />\n    </navigator>\n    <panes>\n      <pane id=\"Scope\" />\n      <pane id=\"ProjectPane\">\n        <subPane>\n          <expand>\n            <path>\n              <item name=\"em\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"em\" type=\"2a2b976b:PhpTreeStructureProvider$1\" />\n            </path>\n            <path>\n              <item name=\"em\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"em\" type=\"2a2b976b:PhpTreeStructureProvider$1\" />\n              <item name=\"basic\" type=\"2a2b976b:PhpTreeStructureProvider$1\" />\n            </path>\n          </expand>\n          <select />\n        </subPane>\n      </pane>\n      <pane id=\"Scratches\" />\n    </panes>\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"nodejs_interpreter_path.stuck_in_default_project\" value=\"undefined stuck path\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"vcs.Git\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"E:\\le\\PHPCode\\em\\basic\\controllers\" />\n      <recent name=\"G:\\phpProject\\em\\basic\\sql\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"E:\\le\\PHPCode\\em\\basic\\test\" />\n      <recent name=\"E:\\le\\PHPCode\\em\\basic\\config\" />\n    </key>\n  </component>\n  <component name=\"RunDashboard\">\n    <option name=\"ruleStates\">\n      <list>\n        <RuleState>\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\n        </RuleState>\n        <RuleState>\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\n        </RuleState>\n      </list>\n    </option>\n  </component>\n  <component name=\"ShelveChangesManager\" show_recycled=\"false\">\n    <option name=\"remove_strategy\" value=\"false\" />\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"bfb9a2ae-8597-48ec-8679-3a96843ec100\" name=\"默认的\" comment=\"\" />\n      <created>1516605516586</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1516605516586</updated>\n      <workItem from=\"1516605518047\" duration=\"53000\" />\n      <workItem from=\"1516621280947\" duration=\"69000\" />\n      <workItem from=\"1516621721084\" duration=\"639000\" />\n      <workItem from=\"1516622449945\" duration=\"1723000\" />\n      <workItem from=\"1516669494306\" duration=\"7406000\" />\n      <workItem from=\"1516843624632\" duration=\"441000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"@牙牙乐&#10;修改什么没什么吗什么&#10;2018-1-22 20:02:26\">\n      <created>1516622558715</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1516622558715</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"@牙牙乐&#10;新增CoverInfo控制器，修改web.php&#10;@data:2018-1-23 09:50:16\">\n      <created>1516672224794</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1516672224794</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"@牙牙乐&#10;新增控制器，&#10;@data:2018-1-23 10:10:00\">\n      <created>1516673468807</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1516673468807</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"@牙牙乐&#10;新增控制器，&#10;@data:2018-1-23 10:10:00\">\n      <created>1516673870393</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1516673870393</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"@牙牙乐&#10;修改控制器方法&#10;@data:2018年1月23日10:37:09\">\n      <created>1516675054152</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1516675054152</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"6\" />\n    <servers />\n  </component>\n  <component name=\"TimeTrackingManager\">\n    <option name=\"totallyTimeSpent\" value=\"10331000\" />\n  </component>\n  <component name=\"ToolWindowManager\">\n    <frame x=\"-8\" y=\"-8\" width=\"1936\" height=\"1056\" extended-state=\"6\" />\n    <layout>\n      <window_info id=\"Project\" active=\"true\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"true\" show_stripe_button=\"true\" weight=\"0.20885417\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"combo\" />\n      <window_info id=\"TODO\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"6\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"调试\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Docker\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"false\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Event Log\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.32908705\" sideWeight=\"0.5\" order=\"7\" side_tool=\"true\" content_ui=\"tabs\" />\n      <window_info id=\"Database\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Version Control\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Structure\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"运行\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Terminal\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Favorites\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"true\" content_ui=\"tabs\" />\n      <window_info id=\"Cvs\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"4\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Message\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"PHP-CGI Server\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Commander\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Inspection\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4\" sideWeight=\"0.5\" order=\"5\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Run\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Thumbnails\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.32979852\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Hierarchy\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"combo\" />\n      <window_info id=\"Find\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Ant Build\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Debug\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n    </layout>\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"1\" />\n  </component>\n  <component name=\"VcsContentAnnotationSettings\">\n    <option name=\"myLimit\" value=\"2678400000\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT\" value=\"false\" />\n    <MESSAGE value=\"@牙牙乐&#10;修改什么没什么吗什么&#10;2018-1-22 20:02:26\" />\n    <MESSAGE value=\"@牙牙乐&#10;新增CoverInfo控制器，修改web.php&#10;@data:2018-1-23 09:50:16\" />\n    <MESSAGE value=\"@牙牙乐&#10;新增控制器，&#10;@data:2018-1-23 10:10:00\" />\n    <MESSAGE value=\"@牙牙乐&#10;修改控制器方法&#10;@data:2018年1月23日10:37:09\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"@牙牙乐&#10;修改控制器方法&#10;@data:2018年1月23日10:37:09\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <option name=\"time\" value=\"2\" />\n    </breakpoint-manager>\n    <watches-manager />\n  </component>\n  <component name=\"editorHistoryManager\">\n    <entry file=\"file://$PROJECT_DIR$/basic/controllers/CoverInfoController.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n          <folding>\n            <element signature=\"e#124#149#0#PHP\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/models/Magazine.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"250\">\n          <caret line=\"10\" column=\"29\" lean-forward=\"false\" selection-start-line=\"10\" selection-start-column=\"29\" selection-end-line=\"10\" selection-end-column=\"34\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/models/Coverinfo.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"625\">\n          <caret line=\"25\" column=\"7\" lean-forward=\"true\" selection-start-line=\"25\" selection-start-column=\"7\" selection-end-line=\"25\" selection-end-column=\"7\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/models/User.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"1275\">\n          <caret line=\"51\" column=\"10\" lean-forward=\"false\" selection-start-line=\"51\" selection-start-column=\"10\" selection-end-line=\"51\" selection-end-column=\"10\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/mail/layouts/html.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"375\">\n          <caret line=\"15\" column=\"6\" lean-forward=\"true\" selection-start-line=\"15\" selection-start-column=\"6\" selection-end-line=\"15\" selection-end-column=\"6\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/views/layouts/main.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"450\">\n          <caret line=\"23\" column=\"26\" lean-forward=\"true\" selection-start-line=\"23\" selection-start-column=\"26\" selection-end-line=\"23\" selection-end-column=\"26\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/views/site/about.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/sql/em.sql\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"350\">\n          <caret line=\"14\" column=\"0\" lean-forward=\"true\" selection-start-line=\"14\" selection-start-column=\"0\" selection-end-line=\"14\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/runtime/.gitignore\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/models/Admin.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"725\">\n          <caret line=\"29\" column=\"23\" lean-forward=\"false\" selection-start-line=\"29\" selection-start-column=\"23\" selection-end-line=\"29\" selection-end-column=\"23\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2-gii/generators/controller/Generator.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"1500\">\n          <caret line=\"68\" column=\"35\" lean-forward=\"false\" selection-start-line=\"68\" selection-start-column=\"35\" selection-end-line=\"68\" selection-end-column=\"35\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/models/Column.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"800\">\n          <caret line=\"32\" column=\"59\" lean-forward=\"false\" selection-start-line=\"32\" selection-start-column=\"59\" selection-end-line=\"32\" selection-end-column=\"59\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/models/Chapter.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"1225\">\n          <caret line=\"49\" column=\"0\" lean-forward=\"true\" selection-start-line=\"49\" selection-start-column=\"0\" selection-end-line=\"49\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/config/test_db.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"57\">\n          <caret line=\"3\" column=\"50\" lean-forward=\"false\" selection-start-line=\"3\" selection-start-column=\"47\" selection-end-line=\"3\" selection-end-column=\"50\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/config/db.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"114\">\n          <caret line=\"6\" column=\"25\" lean-forward=\"false\" selection-start-line=\"6\" selection-start-column=\"25\" selection-end-line=\"6\" selection-end-column=\"25\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/models/Chaptercontent.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"-108\">\n          <caret line=\"18\" column=\"18\" lean-forward=\"true\" selection-start-line=\"18\" selection-start-column=\"18\" selection-end-line=\"18\" selection-end-column=\"18\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/models/Chaptercomments.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"400\">\n          <caret line=\"16\" column=\"1\" lean-forward=\"true\" selection-start-line=\"16\" selection-start-column=\"1\" selection-end-line=\"16\" selection-end-column=\"1\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/yii\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/views/layouts/main.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"450\">\n          <caret line=\"23\" column=\"26\" lean-forward=\"false\" selection-start-line=\"23\" selection-start-column=\"26\" selection-end-line=\"23\" selection-end-column=\"26\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/views/site/about.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/sql/em.sql\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"350\">\n          <caret line=\"14\" column=\"0\" lean-forward=\"false\" selection-start-line=\"14\" selection-start-column=\"0\" selection-end-line=\"14\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2-gii/generators/controller/Generator.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"1500\">\n          <caret line=\"68\" column=\"35\" lean-forward=\"false\" selection-start-line=\"68\" selection-start-column=\"35\" selection-end-line=\"68\" selection-end-column=\"35\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/runtime/.gitignore\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/models/User.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"1275\">\n          <caret line=\"51\" column=\"10\" lean-forward=\"false\" selection-start-line=\"51\" selection-start-column=\"10\" selection-end-line=\"51\" selection-end-column=\"10\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/mail/layouts/html.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"375\">\n          <caret line=\"15\" column=\"6\" lean-forward=\"false\" selection-start-line=\"15\" selection-start-column=\"6\" selection-end-line=\"15\" selection-end-column=\"6\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/models/Chapter.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"675\">\n          <caret line=\"27\" column=\"24\" lean-forward=\"false\" selection-start-line=\"27\" selection-start-column=\"24\" selection-end-line=\"27\" selection-end-column=\"24\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/web/index.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"300\">\n          <caret line=\"12\" column=\"0\" lean-forward=\"false\" selection-start-line=\"12\" selection-start-column=\"0\" selection-end-line=\"12\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/assets/AppAsset.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"400\">\n          <caret line=\"20\" column=\"29\" lean-forward=\"false\" selection-start-line=\"20\" selection-start-column=\"29\" selection-end-line=\"20\" selection-end-column=\"29\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/config/web.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/models/Admin.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"592\">\n          <caret line=\"42\" column=\"37\" lean-forward=\"true\" selection-start-line=\"42\" selection-start-column=\"37\" selection-end-line=\"42\" selection-end-column=\"37\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/models/Column.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"800\">\n          <caret line=\"32\" column=\"59\" lean-forward=\"false\" selection-start-line=\"32\" selection-start-column=\"59\" selection-end-line=\"32\" selection-end-column=\"59\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/web/Controller.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"305\">\n          <caret line=\"21\" column=\"6\" lean-forward=\"false\" selection-start-line=\"21\" selection-start-column=\"6\" selection-end-line=\"21\" selection-end-column=\"6\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/controllers/SiteController.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"200\">\n          <caret line=\"8\" column=\"27\" lean-forward=\"false\" selection-start-line=\"8\" selection-start-column=\"27\" selection-end-line=\"8\" selection-end-column=\"27\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/controllers/AdminController.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"300\">\n          <caret line=\"17\" column=\"38\" lean-forward=\"true\" selection-start-line=\"17\" selection-start-column=\"38\" selection-end-line=\"17\" selection-end-column=\"38\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/controllers/ChapterCommentsController.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/controllers/ChapterContentController.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/base/Model.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"1580\">\n          <caret line=\"347\" column=\"0\" lean-forward=\"true\" selection-start-line=\"347\" selection-start-column=\"0\" selection-end-line=\"347\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/models/Coverinfo.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"625\">\n          <caret line=\"25\" column=\"7\" lean-forward=\"false\" selection-start-line=\"25\" selection-start-column=\"7\" selection-end-line=\"25\" selection-end-column=\"7\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/controllers/CoverInfoController.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"517\">\n          <caret line=\"53\" column=\"9\" lean-forward=\"false\" selection-start-line=\"53\" selection-start-column=\"9\" selection-end-line=\"53\" selection-end-column=\"9\" />\n          <folding>\n            <element signature=\"e#124#149#0#PHP\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/models/Magazine.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"250\">\n          <caret line=\"10\" column=\"29\" lean-forward=\"false\" selection-start-line=\"10\" selection-start-column=\"29\" selection-end-line=\"10\" selection-end-column=\"34\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/controllers/ChapterController.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/controllers/ColumnController.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"-933\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/controllers/DirectoryController.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"800\">\n          <caret line=\"91\" column=\"1\" lean-forward=\"true\" selection-start-line=\"91\" selection-start-column=\"1\" selection-end-line=\"91\" selection-end-column=\"1\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/controllers/UserController.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"1\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/basic/controllers/MagazineController.php\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"242\">\n          <caret line=\"18\" column=\"0\" lean-forward=\"true\" selection-start-line=\"18\" selection-start-column=\"0\" selection-end-line=\"18\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 7f4d7074014a00d2e86f1d9d45223d8c0dde169f)
++++ .idea/workspace.xml	(date 1516869602046)
+@@ -1,14 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="bfb9a2ae-8597-48ec-8679-3a96843ec100" name="默认的" comment="">
+-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/test/test.php" />
+-      <change beforePath="$PROJECT_DIR$/.idea/em.iml" afterPath="$PROJECT_DIR$/.idea/em.iml" />
++    <list default="true" id="bfb9a2ae-8597-48ec-8679-3a96843ec100" name="默认的" comment="@牙牙乐&#10;修改控制器方法&#10;@data:2018年1月25日16:38:39">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+-      <change beforePath="$PROJECT_DIR$/basic/controllers/ColumnController.php" afterPath="$PROJECT_DIR$/basic/controllers/ColumnController.php" />
+-      <change beforePath="$PROJECT_DIR$/basic/controllers/CoverInfoController.php" afterPath="$PROJECT_DIR$/basic/controllers/CoverInfoController.php" />
+-      <change beforePath="$PROJECT_DIR$/basic/controllers/DirectoryController.php" afterPath="$PROJECT_DIR$/basic/controllers/DirectoryController.php" />
+-      <change beforePath="$PROJECT_DIR$/basic/controllers/MagazineController.php" afterPath="$PROJECT_DIR$/basic/controllers/MagazineController.php" />
+     </list>
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+     <option name="TRACKING_ENABLED" value="true" />
+@@ -25,7 +19,7 @@
+       <file leaf-file-name="CoverInfoController.php" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/basic/controllers/CoverInfoController.php">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="517">
++            <state relative-caret-position="1200">
+               <caret line="53" column="9" lean-forward="false" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+               <folding>
+                 <element signature="e#124#149#0#PHP" expanded="true" />
+@@ -37,58 +31,48 @@
+       <file leaf-file-name="ColumnController.php" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/basic/controllers/ColumnController.php">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="-933">
+-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++            <state relative-caret-position="125">
++              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="DirectoryController.php" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/basic/controllers/DirectoryController.php">
++      <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/basic/controllers/AdminController.php">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="800">
+-              <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
++            <state relative-caret-position="300">
++              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/basic/controllers/UserController.php">
++      <file leaf-file-name="DirectoryController.php" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/basic/controllers/DirectoryController.php">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="0">
+-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
++            <state relative-caret-position="536">
++              <caret line="84" column="29" lean-forward="false" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="MagazineController.php" pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/basic/controllers/MagazineController.php">
++      <file leaf-file-name="Directory.php" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/basic/models/Directory.php">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="242">
+-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
++            <state relative-caret-position="255">
++              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="34" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="Magazine.php" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/basic/models/Magazine.php">
++      <file leaf-file-name="ChapterController.php" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/basic/controllers/ChapterController.php">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="250">
+-              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="34" />
+-              <folding />
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file leaf-file-name="Coverinfo.php" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/basic/models/Coverinfo.php">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="625">
+-              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
++            <state relative-caret-position="0">
++              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+               <folding />
+             </state>
+           </provider>
+@@ -97,6 +81,7 @@
+     </leaf>
+   </component>
+   <component name="Git.Settings">
++    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="IdeDocumentHistory">
+@@ -208,7 +193,7 @@
+       <foldersAlwaysOnTop value="true" />
+     </navigator>
+     <panes>
+-      <pane id="Scope" />
++      <pane id="Scratches" />
+       <pane id="ProjectPane">
+         <subPane>
+           <expand>
+@@ -220,12 +205,18 @@
+               <item name="em" type="b2602c69:ProjectViewProjectNode" />
+               <item name="em" type="2a2b976b:PhpTreeStructureProvider$1" />
+               <item name="basic" type="2a2b976b:PhpTreeStructureProvider$1" />
++            </path>
++            <path>
++              <item name="em" type="b2602c69:ProjectViewProjectNode" />
++              <item name="em" type="2a2b976b:PhpTreeStructureProvider$1" />
++              <item name="basic" type="2a2b976b:PhpTreeStructureProvider$1" />
++              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+             </path>
+           </expand>
+           <select />
+         </subPane>
+       </pane>
+-      <pane id="Scratches" />
++      <pane id="Scope" />
+     </panes>
+   </component>
+   <component name="PropertiesComponent">
+@@ -315,33 +306,45 @@
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="10331000" />
++    <option name="totallyTimeSpent" value="10485000" />
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
++    <editor active="true" />
+     <layout>
+-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20885417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
++      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20885417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
++      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
++      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
++      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
++      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
++      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
++      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
++      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
++      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
++      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20885417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
++      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+     </layout>
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -365,6 +368,44 @@
+     <watches-manager />
+   </component>
+   <component name="editorHistoryManager">
++    <entry file="file://$PROJECT_DIR$/basic/controllers/DirectoryController.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="536">
++          <caret line="84" column="29" lean-forward="false" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/basic/controllers/UserController.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/basic/controllers/MagazineController.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="242">
++          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/basic/controllers/ColumnController.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1575">
++          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
+     <entry file="file://$PROJECT_DIR$/basic/controllers/CoverInfoController.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="0">
+@@ -379,7 +420,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="250">
+           <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="34" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -387,7 +427,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="625">
+           <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -395,7 +434,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="1275">
+           <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -438,7 +476,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="725">
+           <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -453,7 +490,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="800">
+           <caret line="32" column="59" lean-forward="false" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -461,7 +497,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="1225">
+           <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -483,7 +518,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="-108">
+           <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -491,7 +525,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="400">
+           <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -541,7 +574,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="1275">
+           <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -556,7 +588,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="675">
+           <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -585,7 +616,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="592">
+           <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -593,7 +623,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="800">
+           <caret line="32" column="59" lean-forward="false" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -608,14 +637,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="200">
+           <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/basic/controllers/AdminController.php">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="300">
+-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+         </state>
+       </provider>
+     </entry>
+@@ -645,13 +666,12 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="625">
+           <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/basic/controllers/CoverInfoController.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="517">
++        <state relative-caret-position="1200">
+           <caret line="53" column="9" lean-forward="false" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+           <folding>
+             <element signature="e#124#149#0#PHP" expanded="true" />
+@@ -663,21 +683,12 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="250">
+           <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="34" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/basic/controllers/ChapterController.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="0">
+-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/basic/controllers/ColumnController.php">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-933">
+           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+           <folding />
+         </state>
+@@ -685,8 +696,8 @@
+     </entry>
+     <entry file="file://$PROJECT_DIR$/basic/controllers/DirectoryController.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="800">
+-          <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
++        <state relative-caret-position="536">
++          <caret line="84" column="29" lean-forward="false" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+           <folding />
+         </state>
+       </provider>
+@@ -695,7 +706,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="0">
+           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -703,6 +713,29 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="242">
+           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/basic/controllers/ColumnController.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="125">
++          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/basic/controllers/AdminController.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="300">
++          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/basic/test/test.php">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="386">
++          <caret line="223" column="6" lean-forward="true" selection-start-line="223" selection-start-column="6" selection-end-line="223" selection-end-column="6" />
+           <folding />
+         </state>
+       </provider>

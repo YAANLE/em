@@ -57,6 +57,13 @@ $config = [
                 'GET /deleteMagazine'=>'/magazine/delete-magazine',
                 'GET /getMagazine'=>'/magazine/select-magazine',
                 'GET /addMagazine'=>'/magazine/add-title',
+                'GET /addChapter'=>'/chapter/add-chapter',
+                'GET /addChapterContent' => '/chapter-content/add-chapter-content',
+                'GET /addChapter'=>'/chapter/add-chapter',
+                'GET /addDirectory'=>'/directory/add-directory',
+                'GET /addColumn'=>'/column/add-column',
+
+
             ],
         ],
 

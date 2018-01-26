@@ -19,7 +19,12 @@ use yii\web\Controller;
  */
 class  ColumnController extends Controller
 {
-
+    /**
+     *@牙牙乐
+     *2018/1/26 0026
+     * @throws \Exception
+     * @throws \Throwable
+     */
     function actionAddColumn()
     {
         $ColumnModel = new  Column();
@@ -29,15 +34,20 @@ class  ColumnController extends Controller
 
         if ($ColumnModel->validate()) {
 
-            if (Directory::findOne($ColumnModel->directoryCode)) {
-                $ColumnModel->insert();
+            if (Directory::findOne($ColumnModel->directoryCode) != null) {
+                if (mb_strlen($ColumnModel->columnName <= 255)) {
+                    $ColumnModel->insert();
 
-                print_r("插入成功！");
+                    print_r("插入成功！");
+                } else {
+                    print_r("字数大于255！");
+                }
             } else {
                 print_r("所属目录不存在！");
             }
+
         } else {
-            print_r("数据超出范围！");
+            print_r("请输入相关数据");
         }
 
     }
@@ -50,7 +60,8 @@ class  ColumnController extends Controller
         if (empty($ColumnModel->id)) {
             //id为空或者为0
             // var_dump(empty($ColumnModel->id));
-            print_r("ID不能为空！"); die();
+            print_r("ID不能为空！");
+            die();
 
         } else {
 
@@ -69,21 +80,23 @@ class  ColumnController extends Controller
         }
 
     }
+
     //修改
-    function actionUpdateColumn(){
+    function actionUpdateColumn()
+    {
         $ColumnModel = new  Column();
         $ColumnModel->id;
-        $ColumnModel->directoryCode=5;
-        $NewColumnName="擦擦擦";
-        $NewColumnNotation="";
-        $DirectoryCode=Directory::findOne($ColumnModel->directoryCode);
-        if(!empty($DirectoryCode)){
-            $ColumnModel->columnName=$NewColumnName;
-            $ColumnModel->columnNotation=$NewColumnNotation;
+        $ColumnModel->directoryCode = 5;
+        $NewColumnName = "擦擦擦";
+        $NewColumnNotation = "";
+        $DirectoryCode = Directory::findOne($ColumnModel->directoryCode);
+        if (!empty($DirectoryCode)) {
+            $ColumnModel->columnName = $NewColumnName;
+            $ColumnModel->columnNotation = $NewColumnNotation;
             $DirectoryCode->save();
             print_r("修改成功！");
 
-        }else{
+        } else {
 
             print_r("没有找到该目录");
         }
