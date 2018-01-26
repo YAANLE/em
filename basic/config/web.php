@@ -50,6 +50,13 @@ $config = [
             'rules' => [
                 'GET /getCovers' => '/cover-info/select',
                 'GET /addCover' => '/cover-info/add-cover',
+                'GET /getComments'=>'/chapter-comments/select-chapter-comments',
+                'GET /addComments'=>'/chapter-comments/add-chapter-comments',
+                'GET /deleteComments'=>'/chapter-comments/delete-chapter-comments',
+                'GET /editMagazine'=>'/magazine/edit-magazine',
+                'GET /deleteMagazine'=>'/magazine/delete-magazine',
+                'GET /getMagazine'=>'/magazine/select-magazine',
+                'GET /addMagazine'=>'/magazine/add-title',
                 'GET /addChapter'=>'/chapter/add-chapter',
                 'GET /addChapterContent' => '/chapter-content/add-chapter-content'
             ],
