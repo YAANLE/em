@@ -45,57 +45,72 @@ class  MagazineController extends BaseController
     }
 
     /**
-     * @throws 杂志删除方法
+     *＠create 劳有豪
+     * @date 2018/1/26
+     * @throws \Exception
      * @throws \Throwable
      * @throws \yii\db\StaleObjectException
      */
     function actionDeleteMagazine()
     {
-        $model = new Magazine();
-        $model->id = 0;
-        if (empty($model->id)) {
-            print_r("id为空！");
-            die();
-        } else {
-            if (Magazine::findOne($model->id)) {
-                Magazine::findOne($model->id)->delete();
-                print_r("删除成功！");
-                die();
+        \Yii::$app->response->format=Response::FORMAT_JSON;
+        $MagazineModel = new Magazine();
+        $MagazineModel->id = 12;
+        if ($MagazineModel->id != null && $MagazineModel->id >= 0) {
+            $MagazineModel=Magazine::findOne($MagazineModel->id);
+            if ($MagazineModel != null) {
+                Magazine::findOne($MagazineModel->id)->delete();
+                return ['errorCode'=>"200",'message'=>"删除成功！"];
             } else {
-                print_r("没找到id");
-                die();
+                return ['errorCode'=>"500",'message'=>"对象不存在"];
             }
+        }else{
+            return ['errorCode'=>"500",'message'=>"删除失败"];
         }
     }
 
     /**
-     * 杂志编辑
+     *＠create 劳有豪
+     * @date 2018/1/26
+     * @return array
      */
     function actionEditMagazine()
     {
         //代码中添加返回头信息,以j'son的形式返回
         \Yii::$app->response->format=Response::FORMAT_JSON;
 
-        $model = new Magazine();
-        $model->id = 7;
-        $model=Magazine::findOne($model->id);
-        if (empty($model->id)) {
+        $MagazineModel = new Magazine();
+        $MagazineModel->id = 7;
+        $MagazineModel=Magazine::findOne($MagazineModel->id);
+        if (empty($MagazineModel->id)) {
             print_r("杂志标题为空！");
             die();
         }else{
-           $model->magazineTitle="水电费第三方4";
-           $model->save();
-           return ['errorCode'=>"200",'message'=>"不可修改，所属杂志为空",'list'=>$model];
+            $MagazineModel->magazineTitle="《记录片》";
+            $MagazineModel->save();
+           return ['errorCode'=>"200",'message'=>"修改成功",'list'=>$MagazineModel];
        }
     }
 
     /**
-     * 杂志搜索
+     *＠create 劳有豪
+     * @date 2018/1/26
+     * @return array
      */
     function actionSelectMagazine(){
         \Yii::$app->response->format=Response::FORMAT_JSON;
-        $model =new Magazine();
-
+        $MagazineModel =new Magazine();
+        $MagazineModel->id=-1;
+        if($MagazineModel->id != null && $MagazineModel->id >= 0){
+            $MagazineModel=Magazine::findOne($MagazineModel->id);
+            if($MagazineModel != null){
+                return ['errorCode'=>"200",'message'=>'查询成功','list'=>$MagazineModel=Magazine::find()->where(['id'=>$MagazineModel->id])->one()];
+            }else{
+                return ['errorCode'=>"500",'message'=>"对象不存在"];
+            }
+        }else{
+            return ['errorCode'=>"500",'message'=>"查询失败"];
+        }
 
     }
 }
