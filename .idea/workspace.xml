@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10d644ef-a0bb-4a1a-b2b1-9bf2bffc0bc9" name="Default" comment="@牙牙乐&#10;&#10;&#10;&#10;@date:2018年1月25日17:10">
+    <list default="true" id="10d644ef-a0bb-4a1a-b2b1-9bf2bffc0bc9" name="Default" comment="@劳有豪&#10;&#10;xxxxxxx&#10;&#10;@date:2018年1月25日17:10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/basic/config/web.php" afterPath="$PROJECT_DIR$/basic/config/web.php" />
-      <change beforePath="$PROJECT_DIR$/basic/controllers/ChapterCommentsController.php" afterPath="$PROJECT_DIR$/basic/controllers/ChapterCommentsController.php" />
-      <change beforePath="$PROJECT_DIR$/basic/controllers/MagazineController.php" afterPath="$PROJECT_DIR$/basic/controllers/MagazineController.php" />
     </list>
     <ignored path="$PROJECT_DIR$/basic/vendor/behat/gherkin/" />
     <ignored path="$PROJECT_DIR$/basic/vendor/bower-asset/bootstrap/" />
@@ -364,7 +361,7 @@
       <workItem from="1516844946824" duration="7737000" />
       <workItem from="1516861944547" duration="8543000" />
       <workItem from="1516929407130" duration="9708000" />
-      <workItem from="1516948504163" duration="6623000" />
+      <workItem from="1516948504163" duration="6671000" />
     </task>
     <task id="LOCAL-00001" summary="@老友号&#10;&#10;//修改magazine杂志表&#10;&#10;@date:2018-01-24 17:33:24">
       <created>1516786413162</created>
@@ -408,11 +405,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516871430378</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="@劳有豪&#10;&#10;xxxxxxx&#10;&#10;@date:2018年1月25日17:10">
+      <created>1516955449319</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1516955449319</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72538000" />
+    <option name="totallyTimeSpent" value="72586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -456,7 +460,8 @@
     <MESSAGE value="@老友号&#10;&#10;//xxxx&#10;&#10;@date:2018年1月25日16:32:58" />
     <MESSAGE value="@老友号&#10;&#10;//xxxx&#10;&#10;@date:2018年1月25日17:05:08" />
     <MESSAGE value="@牙牙乐&#10;&#10;&#10;&#10;@date:2018年1月25日17:10" />
-    <option name="LAST_COMMIT_MESSAGE" value="@牙牙乐&#10;&#10;&#10;&#10;@date:2018年1月25日17:10" />
+    <MESSAGE value="@劳有豪&#10;&#10;xxxxxxx&#10;&#10;@date:2018年1月25日17:10" />
+    <option name="LAST_COMMIT_MESSAGE" value="@劳有豪&#10;&#10;xxxxxxx&#10;&#10;@date:2018年1月25日17:10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
