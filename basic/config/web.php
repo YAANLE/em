@@ -50,6 +50,8 @@ $config = [
             'rules' => [
                 'GET /getCovers' => '/cover-info/select',
                 'GET /addCover' => '/cover-info/add-cover',
+                'GET /addChapter'=>'/chapter/add-chapter',
+                'GET /addChapterContent' => '/chapter-content/add-chapter-content'
             ],
         ],
 

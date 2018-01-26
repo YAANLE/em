@@ -21,7 +21,13 @@ use yii\web\Response;
 class  DirectoryController extends Controller
 {
 
-//添加
+    /**
+     *@牙牙乐
+     *2018/1/26 0026
+     * @throws \Exception
+     * @throws \Throwable
+     */
+
     function actionAddDirectory()
     {
         $directoryMode = new Directory();
@@ -31,25 +37,29 @@ class  DirectoryController extends Controller
         if ($directoryMode->validate()) {
             //判断Magazine表是否有相关的ID 和 判断栏目标题是否小于255
 
-            if (Magazine::findOne($directoryMode->magazineCode)) {
-
-                $directoryMode->insert();
-                print_r("插入成功!");
-                die;
+            if (Magazine::findOne($directoryMode->magazineCode) != null) {
+                //字的长度
+                if (mb_strlen($directoryMode->directoryName, 'utf8') <= 255) {
+                    $directoryMode->insert();
+                    print_r("插入成功!");
+                    die;
+                } else {
+                    print_r("数字大于255");
+                }
             } else {
                 print_r("找不到该书!");
                 die;
             }
         } else {
-            print_r("请输入0~255之间的字符 ");
+            print_r("请输入相关数据");
             die;
         }
     }
-    //添加
+
     function actionDeleteDirectory()
     {
         $directoryMode = new Directory();
-        $directoryMode->id =4;
+        $directoryMode->id = 4;
         if (empty($directoryMode->id)) {
             print_r("ID不能为空！");
             die();
@@ -67,49 +77,53 @@ class  DirectoryController extends Controller
         }
 
     }
+
 //修改
-    function actionUpdateDirectory(){
+    function actionUpdateDirectory()
+    {
         //代码中添加返回头信息,以j'son的形式返回
-        \Yii::$app->response->format=Response::FORMAT_JSON;
+        \Yii::$app->response->format = Response::FORMAT_JSON;
 
         $directoryModel = new Directory();
-        $directoryModel->id=6;
-        $directoryModel=Directory::findOne($directoryModel->id);
+        $directoryModel->id = 6;
+        $directoryModel = Directory::findOne($directoryModel->id);
         if (empty($directoryModel->id)) {
 
             print_r("未找到该ID！");
 
-        }else{
+        } else {
 //           var_dump( Directory::findOne($directoryMode->id));
 
             // print_r($directoryModel->directoryName);//查看原先的内容
             //修改过程
-            $directoryModel->directoryName="jlll";
+            $directoryModel->directoryName = "jlll";
             // $directoryMode->directoryName=$NewDirectoryName;
             //修改之后保存保存
             $directoryModel->save();
             //  print_r("修改成功");
-            return ['errorCode'=>"200",'message'=>"不可添加，所属杂志为空",'list'=>$directoryModel];
+            return ['errorCode' => "200", 'message' => "不可添加，所属杂志为空", 'list' => $directoryModel];
 
         }
 
     }
+
     //查询
-    function   actionSelectDirectory(){
+    function actionSelectDirectory()
+    {
         //代码中添加返回头信息,以j'son的形式返回
-        \Yii::$app->response->format=Response::FORMAT_JSON;
+        \Yii::$app->response->format = Response::FORMAT_JSON;
         $DirectoryModel = new Directory();
-        $MagazineCode=1;
+        $MagazineCode = 1;
         //判断Magazine表 有没有对应的ID
         $MagazineModel = Magazine::findOne($MagazineCode);
         //判断Directory表有没有对应的MagazineCode
-        $Magazine_Code=Directory::find()->where(['magazineCode'=>$MagazineCode])->all();
+        $Magazine_Code = Directory::find()->where(['magazineCode' => $MagazineCode])->all();
 
-        if($MagazineModel != null && $Magazine_Code != null ){
+        if ($MagazineModel != null && $Magazine_Code != null) {
             //  print_r("不为空");
             print_r($DirectoryModel->magazineCode);
-            return ['errorCode'=>"200",'message'=>"！",'list'=>$Magazine_Code];
-        }else{
+            return ['errorCode' => "200", 'message' => "", 'list' => $Magazine_Code];
+        } else {
             print_r("没有对应的栏目");
         }
 
