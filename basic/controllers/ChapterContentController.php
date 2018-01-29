@@ -11,7 +11,9 @@ namespace app\controllers;
 use app\models\Admin;
 use app\models\Chapter;
 use app\models\Chaptercontent;
+use Yii;
 use yii\web\Controller;
+use yii\web\Response;
 
 /**
  * 章节内容控制器
@@ -31,31 +33,29 @@ class  ChapterContentController extends BaseController
         $ContentModel = new Chaptercontent();
         $ContentModel->chapterCode = 1;
         $ContentModel->editAdmin = 1;
-        $ContentModel->content = "dsads";
 
+        \Yii::$app->response->format = Response::FORMAT_JSON;
 
-        if ($ContentModel->validate()) {
-            //验证外键是否有效
-            $Admin = Admin::findOne($ContentModel->editAdmin);
+        if (Yii::$app->request->isPost) {
+            //获取前台ajax数据 并进行数据验证
+            if ( $ContentModel->load(Yii::$app->request->post()) &&  $ContentModel->validate()) {
 
-            if ($Admin != null) {
-                $chapterCode = Chapter::findOne($ContentModel->chapterCode);
-                if ($chapterCode != null) {
+                $results =  $ContentModel->insert();
 
-                    date_default_timezone_set('PRC');
-                    $ContentModel->editTime = date("Y/m/d/H/i/s");
-
-                    $ContentModel->insert();
-                    print_r("插入成功");
+                if ($results) {
+                    return ['errorCode' => "200", 'message' => "添加成功"];
                 } else {
-                    print_r("请重新选择所属章节.");
+                    return ['errorCode' => "200", 'message' => "添加失败,请重试"];
                 }
 
+
             } else {
-                print_r("请重新登录.");
+                if (mb_strlen( $ContentModel->directoryName, 'utf8') > 255) return ['errorCode' => "500", 'message' => "数据长度超出范围"];
+                return ['errorCode' => "500", 'message' => "请输入数据"];
             }
-        } else {
-            print_r("请输入相关数据");
+        }else{
+            return ['errorCode' => "500", 'message' => "非POST请求"];
         }
+
     }
 }

@@ -10,6 +10,7 @@ namespace app\controllers;
 
 use app\models\Directory;
 use app\models\Magazine;
+use Yii;
 use yii\web\Controller;
 use yii\web\Response;
 
@@ -18,7 +19,7 @@ use yii\web\Response;
  * Class AdminController
  * @package app\controllers
  */
-class  DirectoryController extends Controller
+class  DirectoryController extends BaseController
 {
 
     /**
@@ -30,30 +31,33 @@ class  DirectoryController extends Controller
 
     function actionAddDirectory()
     {
-        $directoryMode = new Directory();
-        $directoryMode->directoryName = "诞节疯";
-        $directoryMode->magazineCode = 1;
+        $DirectoryMode = new Directory();
+        $DirectoryMode->magazineCode = 1;
 
-        if ($directoryMode->validate()) {
-            //判断Magazine表是否有相关的ID 和 判断栏目标题是否小于255
+        \Yii::$app->response->format = Response::FORMAT_JSON;
 
-            if (Magazine::findOne($directoryMode->magazineCode) != null) {
-                //字的长度
-                if (mb_strlen($directoryMode->directoryName, 'utf8') <= 255) {
-                    $directoryMode->insert();
-                    print_r("插入成功!");
-                    die;
+
+        if (Yii::$app->request->isPost) {
+            //获取前台ajax数据 并进行数据验证
+            if ($DirectoryMode->load(Yii::$app->request->post()) && $DirectoryMode->validate()) {
+
+                $results = $DirectoryMode->insert();
+
+                if ($results) {
+                    return ['errorCode' => "200", 'message' => "添加成功"];
                 } else {
-                    print_r("数字大于255");
+                    return ['errorCode' => "200", 'message' => "添加失败,请重试"];
                 }
+
+
             } else {
-                print_r("找不到该书!");
-                die;
+                if (mb_strlen($DirectoryMode->directoryName, 'utf8') > 255) return ['errorCode' => "500", 'message' => "数据长度超出范围"];
+                return ['errorCode' => "500", 'message' => "请输入数据"];
             }
-        } else {
-            print_r("请输入相关数据");
-            die;
+        }else{
+            return ['errorCode' => "500", 'message' => "非POST请求"];
         }
+
     }
 
     function actionDeleteDirectory()

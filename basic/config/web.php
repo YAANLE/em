@@ -49,21 +49,18 @@ $config = [
             'showScriptName' => false,
             'rules' => [
                 'GET /getCovers' => '/cover-info/select',
-                'GET /addCover' => '/cover-info/add-cover',
+                'POST /addCover' => '/cover-info/add-cover',
                 'GET /getComments'=>'/chapter-comments/select-chapter-comments',
-                'GET /addComments'=>'/chapter-comments/add-chapter-comments',
+                'POST /addComments'=>'/chapter-comments/add-chapter-comments',
                 'GET /deleteComments'=>'/chapter-comments/delete-chapter-comments',
                 'GET /editMagazine'=>'/magazine/edit-magazine',
                 'GET /deleteMagazine'=>'/magazine/delete-magazine',
                 'GET /getMagazine'=>'/magazine/select-magazine',
-                'GET /addMagazine'=>'/magazine/add-title',
-                'GET /addChapter'=>'/chapter/add-chapter',
-                'GET /addChapterContent' => '/chapter-content/add-chapter-content',
-                'GET /addChapter'=>'/chapter/add-chapter',
-                'GET /addDirectory'=>'/directory/add-directory',
-                'GET /addColumn'=>'/column/add-column',
-
-
+                'POST /addMagazine'=>'/magazine/add-title',
+                'POST /addChapter'=>'/chapter/add-chapter',
+                'POST /addChapterContent' => '/chapter-content/add-chapter-content',
+                'POST /addDirectory'=>'/directory/add-directory',
+                'POST /addColumn'=>'/column/add-column',
             ],
         ],
 

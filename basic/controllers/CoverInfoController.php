@@ -10,6 +10,7 @@ namespace app\controllers;
 
 use app\models\Coverinfo;
 use app\models\Magazine;
+use Yii;
 use yii\web\Controller;
 use yii\web\Response;
 
@@ -34,35 +35,36 @@ class  CoverInfoController extends BaseController
     {
 
 
-        $model = new Coverinfo();
-        $model->magazineCode = 1;
-        $model->coverTitle = "大话西游3";
-        $model->coverImgUrl = "img.jpg";
-        $model->coverPublishedInfo = "广西斌哥哥出版社";
-        //先验证#model 收到的数据，
-//        if ($model->load(Yii::$app->request->post()) && $model->validate()){
-        if ($model->validate()) {
+        $CoverInfoModel = new Coverinfo();
+        $CoverInfoModel->magazineCode = 1;
+        $CoverInfoModel->coverImgUrl = "img.jpg";
 
-            //假定数据验证成功，则根据此id进行外键关联查询；
-            $MagazineModel = Magazine::findOne($model->magazineCode);
+        \Yii::$app->response->format = Response::FORMAT_JSON;
 
-            //判断外键是否存在，如存在则进行数据校验；否则进行相关提示
-            if ($MagazineModel == null) {
-                print_r("不可添加，所属杂志为空");
-                die;
+
+        if (Yii::$app->request->isPost) {
+            //获取前台ajax数据 并进行数据验证
+            if ($CoverInfoModel->load(Yii::$app->request->post()) && $CoverInfoModel->validate()) {
+
+                $results = $CoverInfoModel->insert();
+
+                if ($results) {
+                    return ['errorCode' => "200", 'message' => "添加成功"];
+                } else {
+                    return ['errorCode' => "200", 'message' => "添加失败,请重试"];
+                }
+
+
             } else {
-                //print_r($MagazineModel->magazineTitle); die;
-
-                $model->insert();
-                print_r("添加成功");
-
+                if (mb_strlen($CoverInfoModel->magazineTitle, 'utf8') > 255) return ['errorCode' => "500", 'message' => "数据长度超出范围"];
+                return ['errorCode' => "500", 'message' => "请输入数据"];
             }
-
-        } else {
-            print_r("请输入相关数据 ");
-            die;
-
+        }else{
+            return ['errorCode' => "500", 'message' => "非POST请求"];
         }
+
+
+
 
 
     }

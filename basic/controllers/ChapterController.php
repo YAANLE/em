@@ -10,7 +10,9 @@ namespace app\controllers;
 
 use app\models\Chapter;
 use app\models\Column;
+use Yii;
 use yii\web\Controller;
+use yii\web\Response;
 
 /**
  * 章节控制器
@@ -32,28 +34,29 @@ class  ChapterController extends BaseController
         $ChapterModel = new Chapter();
 
         $ChapterModel->columnCode = 3;
-        $ChapterModel->chapterName = "jkdasjdj";
-        $ChapterModel->chapterNotation = "sadsdsda";
-        $Code = Column::findOne($ChapterModel->columnCode);
-        if ($ChapterModel->validate()) {
-            if (!empty($Code)) {
-                if (mb_strlen($ChapterModel->chapterName, 'utf8') <= 255) {
-                    $ChapterModel->insert();
-                    print_r("插入成功");
+
+        \Yii::$app->response->format = Response::FORMAT_JSON;
+
+        if (Yii::$app->request->isPost) {
+            //获取前台ajax数据 并进行数据验证
+            if ($ChapterModel->load(Yii::$app->request->post()) && $ChapterModel->validate()) {
+
+                $results = $ChapterModel->insert();
+
+                if ($results) {
+                    return ['errorCode' => "200", 'message' => "添加成功"];
                 } else {
-                    print_r("数据大于255");
-
+                    return ['errorCode' => "200", 'message' => "添加失败,请重试"];
                 }
+
+
             } else {
-                print_r("找不到相关的栏目");
+                if (mb_strlen($ChapterModel->directoryName, 'utf8') > 255) return ['errorCode' => "500", 'message' => "数据长度超出范围"];
+                return ['errorCode' => "500", 'message' => "请输入数据"];
             }
-
-        } else {
-
-            print_r("请输入相关数据");
-
+        }else{
+            return ['errorCode' => "500", 'message' => "非POST请求"];
         }
-
 
     }
 }

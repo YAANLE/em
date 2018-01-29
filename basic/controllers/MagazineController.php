@@ -9,6 +9,7 @@
 namespace app\controllers;
 
 use app\models\Magazine;
+use Yii;
 use yii\web\Controller;
 use yii\web\Response;
 
@@ -21,28 +22,41 @@ class  MagazineController extends BaseController
 {
 
     /**
-     *
+     * @author 伍锐保
+     * @date 2018/1/29
+     * @throws \Exception
+     * @throws \Throwable
      */
     function actionAddTitle()
     {
+        \Yii::$app->response->format = Response::FORMAT_JSON;
         $MagazineModel = new Magazine();
-        $MagazineModel->magazineTitle = "《xxxsss》";
-        //验证$MagazineModel->magazineTitle
 
-        if (!empty($MagazineModel->magazineTitle)) {
-            if (mb_strlen($MagazineModel->magazineTitle, 'utf8') <= 255) {
-                $MagazineModel->insert();
-                print_r("插入成功！！");
-                die();
+        if (Yii::$app->request->isPost) {
+            //获取前台ajax数据 并进行数据验证
+            if ($MagazineModel->load(Yii::$app->request->post()) && $MagazineModel->validate()) {
+
+                $results = $MagazineModel->insert();
+
+                if ($results) {
+                    return ['errorCode' => "200", 'message' => "添加成功"];
+                } else {
+                    return ['errorCode' => "200", 'message' => "添加失败,请重试"];
+                }
+
+
             } else {
-                print_r("标题大于255！");
-                die();
+                if (mb_strlen($MagazineModel->magazineTitle, 'utf8') > 255) return ['errorCode' => "500", 'message' => "数据长度超出范围"];
+                return ['errorCode' => "500", 'message' => "请输入数据"];
             }
-        } else {
-            print_r("标题为空！");
-            die();
+        }else{
+            return ['errorCode' => "500", 'message' => "非POST请求"];
         }
+
+
+
     }
+
 
     /**
      *＠create 劳有豪
@@ -80,7 +94,7 @@ class  MagazineController extends BaseController
         \Yii::$app->response->format=Response::FORMAT_JSON;
 
         $MagazineModel = new Magazine();
-        $MagazineModel->id = 7;
+        $MagazineModel->id = 2;
         $MagazineModel=Magazine::findOne($MagazineModel->id);
         if (empty($MagazineModel->id)) {
             print_r("杂志标题为空！");

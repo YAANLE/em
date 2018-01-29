@@ -10,14 +10,16 @@ namespace app\controllers;
 
 use app\models\Column;
 use app\models\Directory;
+use Yii;
 use yii\web\Controller;
+use yii\web\Response;
 
 /**
  * 栏目控制器
  * Class AdminController
  * @package app\controllers
  */
-class  ColumnController extends Controller
+class  ColumnController extends BaseController
 {
     /**
      *@牙牙乐
@@ -28,26 +30,30 @@ class  ColumnController extends Controller
     function actionAddColumn()
     {
         $ColumnModel = new  Column();
-        $ColumnModel->directoryCode = 4;
-        $ColumnModel->columnName = "asdfadsfa";
-        $ColumnModel->columnNotation = "2";
+        $ColumnModel->directoryCode = 5;
 
-        if ($ColumnModel->validate()) {
+        \Yii::$app->response->format = Response::FORMAT_JSON;
 
-            if (Directory::findOne($ColumnModel->directoryCode) != null) {
-                if (mb_strlen($ColumnModel->columnName <= 255)) {
-                    $ColumnModel->insert();
 
-                    print_r("插入成功！");
+        if (Yii::$app->request->isPost) {
+            //获取前台ajax数据 并进行数据验证
+            if ($ColumnModel->load(Yii::$app->request->post()) && $ColumnModel->validate()) {
+
+                $results = $ColumnModel->insert();
+
+                if ($results) {
+                    return ['errorCode' => "200", 'message' => "添加成功"];
                 } else {
-                    print_r("字数大于255！");
+                    return ['errorCode' => "200", 'message' => "添加失败,请重试"];
                 }
-            } else {
-                print_r("所属目录不存在！");
-            }
 
-        } else {
-            print_r("请输入相关数据");
+
+            } else {
+                if (mb_strlen($$ColumnModel->magazineTitle, 'utf8') > 255) return ['errorCode' => "500", 'message' => "数据长度超出范围"];
+                return ['errorCode' => "500", 'message' => "请输入数据"];
+            }
+        }else{
+            return ['errorCode' => "500", 'message' => "非POST请求"];
         }
 
     }

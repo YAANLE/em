@@ -32,7 +32,7 @@ class  ChapterCommentsController extends BaseController
         //代码中添加返回头信息,以j'son的形式返回
         \Yii::$app->response->format = Response::FORMAT_JSON;
         $ChaptercommentsModel = new Chaptercomments();
-        $ChaptercommentsModel->id = 12;
+        $ChaptercommentsModel->id =2;
         if ($ChaptercommentsModel->id != null && $ChaptercommentsModel->id >= 0) {
             $ChaptercommentsModel=Chaptercomments::findOne($ChaptercommentsModel->id);
             if($ChaptercommentsModel != null){
@@ -57,8 +57,8 @@ class  ChapterCommentsController extends BaseController
         \Yii::$app->response->format = Response::FORMAT_JSON;
         $ChaptercommentsModel = new Chaptercomments();
         date_default_timezone_get('PRC');
-        $ChaptercommentsModel->user = 1;
-        $ChaptercommentsModel->chapterContentCode = 1;
+        $ChaptercommentsModel->user = 0;
+        $ChaptercommentsModel->chapterContentCode = 0;
         $ChaptercommentsModel->CommentsContent = "百度god发嘎算法";
         $ChaptercommentsModel->createTime = date("Y/m/d/H/i/s");
         if ($ChaptercommentsModel->validate()) {
